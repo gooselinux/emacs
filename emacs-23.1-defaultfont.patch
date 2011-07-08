@@ -1,0 +1,12 @@
+diff -up emacs-23.1/src/xfns.c.defaultfont emacs-23.1/src/xfns.c
+--- emacs-23.1/src/xfns.c.defaultfont	2010-06-10 12:37:50.925888442 +0200
++++ emacs-23.1/src/xfns.c	2010-06-10 12:38:01.267888244 +0200
+@@ -3065,7 +3065,7 @@ x_default_font_parameter (f, parms)
+ 	= {
+ #ifdef HAVE_XFT
+ 	    /* This will find the normal Xft font.  */
+- 	    "monospace-12",
++ 	    "monospace-10",
+ #endif
+ 	    "-adobe-courier-medium-r-*-*-*-120-*-*-*-*-iso8859-1",
+ 	    "-misc-fixed-medium-r-normal-*-*-140-*-*-c-*-iso8859-1",
